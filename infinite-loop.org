@@ -1,0 +1,13 @@
+*Infinite loop (Ciclo infinito)
+
+Um loop é uma sequencia de chamadas nas quais a ultima chamada retorna a primeira, criando, dessa forma, uma ideia de ciclo. Na programação, essa ideia é recorrente, utilizadas, por exemplo, em recurções. Porém, o uso de Loop também pode ser problemático. Criar um loop infinito, significa criar um eterno estado de avaliação, dessa forma, nenhuma saída é concretizada pelo avaliador. No livro SICP, Alyssa P. Hacker e Eva Lu Ator propoem o seguinte codigo:
+
+(define (new-if predicate then-clause else-clause) (cond (predicate then-clause) (else else-clause)))
+(define (sqrt-iter guess x) (new-if (good-enough? guess x) guess (sqrt-iter (improve guess x) x)))
+
+É possível notar que o new-if causará um loop infinito, pois primeiro são avaliados seus argumentos, e o ultimo deles chama novamente o new-if, criando o cliclo interminável de chamadas.
+
+fontes:
+https://stackoverflow.com/questions/1171252/whats-the-explanation-for-exercise-1-6-in-sicp
+Racket Documentation.
+livro: Structure and Interpretation of Computer Programs. (SICP)
