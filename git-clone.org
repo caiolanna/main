@@ -1,0 +1,11 @@
+*Git Clone
+
+O Git clone é definido como um utilitário de linha de comando. Sua função é permitir a clonagem, ou seja, uma cópia idêntica de um repositório em rede para que o mesmo se torne um repositório local, permitindo dessa forma a integração de usuarios em um projeto.
+
+Fontes:
+https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-clone
+https://www.youtube.com/watch?v=vvn2ZKnT_e8
+https://rogerdudler.github.io/git-guide/index.pt_BR.html
+http://www.ratamero.com/blog/git-e-github-parte-1-o-que-sao-e-como-usar/
+https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
